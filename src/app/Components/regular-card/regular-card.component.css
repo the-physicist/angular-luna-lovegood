@@ -1,0 +1,18 @@
+.regular-card__cover {
+  margin: 3em 0;
+  animation: pulsing-card 5s ease-in infinite;
+}
+.regular-card__cover:hover {
+  animation: none;
+  filter: drop-shadow(0 0 1rem #fbaf00);
+  cursor: pointer;
+}
+
+.regular-card__title {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  animation: pulsing-link 5s ease-in infinite;
+}

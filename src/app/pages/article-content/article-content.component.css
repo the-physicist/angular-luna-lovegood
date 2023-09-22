@@ -1,0 +1,44 @@
+.wallpaper__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wallpaper__title {
+  font-size: 3em;
+  color: #fbaf00;
+  font-weight: 700;
+}
+
+.wallpaper__image {
+  width: 1000px;
+}
+.wallpaper__image:hover {
+  transition: 0.5s;
+  border: solid 1px #fbaf00;
+  transform: scale(1.03);
+}
+
+.wallpaper__footer {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 2em 0;
+}
+.wallpaper__back {
+  font-size: 2.5em;
+  color: #b9314f;
+}
+
+.wallpaper__back:hover {
+  text-decoration-style: wavy;
+  text-decoration-color: #fff;
+}
+.wallpaper__btn {
+  font-size: 2.5em;
+  color: #fbaf00;
+}
+
+.wallpaper__btn:hover {
+  color: #fff;
+}

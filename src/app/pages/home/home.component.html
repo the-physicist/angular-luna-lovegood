@@ -1,0 +1,71 @@
+<app-blog-title></app-blog-title>
+
+<main class="articles__container">
+  <section class="articles__feature">
+    <app-feature-card
+      id="1"
+      featureImgCover="https://w0.peakpx.com/wallpaper/323/403/HD-wallpaper-evanna-lynch-girl-actress-blonde-luna-lovegood.jpg"
+    ></app-feature-card>
+    <app-feature-card
+      id="2"
+      featureImgCover="https://images4.alphacoders.com/819/81924.jpg"
+    ></app-feature-card>
+    <app-feature-card
+      id="3"
+      featureImgCover="https://wallpapercave.com/dwp1x/wp1921606.jpg"
+    ></app-feature-card>
+  </section>
+  <section class="articles__regular">
+    <app-regular-card
+      id="4"
+      regularImgCover="https://wallpapercave.com/dwp1x/wp1921611.jpg"
+    ></app-regular-card>
+    <app-regular-card
+      id="5"
+      regularImgCover="https://wallpapercave.com/dwp1x/wp1921619.jpg"
+    ></app-regular-card>
+    <app-regular-card
+      id="6"
+      regularImgCover="https://wallpaperaccess.com/full/2130212.jpg"
+    ></app-regular-card>
+    <app-regular-card
+      id="7"
+      regularImgCover="https://wallpaperset.com/w/full/5/1/c/165549.jpg"
+    ></app-regular-card>
+  </section>
+  <section class="articles__feature">
+    <app-feature-card
+      id="8"
+      featureImgCover="https://wallpaperset.com/w/full/c/a/4/165596.jpg"
+    ></app-feature-card>
+    <app-feature-card
+      id="9"
+      featureImgCover="https://wallpaperset.com/w/full/b/4/9/165631.jpg"
+    ></app-feature-card>
+    <app-feature-card
+      id="10"
+      featureImgCover="https://wallpaperset.com/w/full/9/a/c/165670.jpg"
+    ></app-feature-card>
+  </section>
+</main>
+
+<!-- Dynamic Way to put components in the DOM -->
+
+<!-- <app-blog-title></app-blog-title>
+
+<main class="articles__container">
+  <section class="articles__feature">
+    <app-feature-card
+      *ngFor="let card of cardsData | slice : 0 : 5"
+      [id]="card.id"
+      [featureImgCover]="card.articleImage"
+    ></app-feature-card>
+  </section>
+  <section class="articles__feature">
+    <app-feature-card
+      *ngFor="let card of cardsData | slice : 5 : 10"
+      [id]="card.id"
+      [featureImgCover]="card.articleImage"
+    ></app-feature-card>
+  </section>
+</main> -->

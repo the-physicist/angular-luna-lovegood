@@ -1,0 +1,12 @@
+<main class="wallpaper__container">
+  <h1 class="wallpaper__title">{{ articleTitle }}</h1>
+  <img class="wallpaper__image" src="{{ articleImage }}" alt="" srcset="" />
+
+  <div class="wallpaper__footer">
+    <a class="wallpaper__back" [routerLink]="['']"> MORE WALLPAPER </a>
+
+    <a href="{{ articleImage }}" download target="_blank">
+      <button class="wallpaper__btn">DOWNLOAD IN HD</button>
+    </a>
+  </div>
+</main>

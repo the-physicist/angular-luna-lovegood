@@ -1,0 +1,16 @@
+<div class="feature-card__container">
+  <!-- add (mouseenter)="onHoverCard()" in the img tag if you
+  need to use the hover effect manually-->
+  <img
+    [routerLink]="['article', id]"
+    class="feature-card__cover"
+    src="{{ featureImgCover }}"
+    alt=""
+  />
+  <h2 class="feature-card__title hover-card__title">
+    <a [routerLink]="['article', id]" rel="noopener noreferrer">{{
+      featureCardTitle
+    }}</a>
+  </h2>
+  <!-- <p class="feature-card__description">{{ featureCardDescription }}</p> -->
+</div>

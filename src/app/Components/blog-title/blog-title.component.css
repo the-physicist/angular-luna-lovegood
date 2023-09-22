@@ -1,0 +1,10 @@
+.blog__container {
+  display: flex;
+  align-items: center;
+}
+
+.blog__title {
+  font-size: 6em;
+  color: #fbaf00;
+  font-weight: 700;
+}

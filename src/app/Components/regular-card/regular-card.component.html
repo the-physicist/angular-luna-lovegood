@@ -1,0 +1,16 @@
+<!-- <div class="regular-card__container"> -->
+<article class="regular-card__container">
+  <img
+    [routerLink]="['article', id]"
+    class="regular-card__cover"
+    src="{{ regularImgCover }}"
+    alt=""
+  />
+  <h3 class="regular-card__title hover-card__title">
+    <a [routerLink]="['article', id]" rel="noopener noreferrer">{{
+      regularCardTitle
+    }}</a>
+  </h3>
+</article>
+<!-- <hr class="regular-card__separator" /> -->
+<!-- </div> -->

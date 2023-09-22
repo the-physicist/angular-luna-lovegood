@@ -1,0 +1,8 @@
+.articles__container {
+  display: flex;
+  justify-content: center;
+}
+
+.articles__regular {
+  margin-right: 50px;
+}

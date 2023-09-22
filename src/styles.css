@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&family=Unkempt:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Unkempt", Segoe UI, ursive;
+
+  color: #eef1ef;
+}
+
+body {
+  background-color: #111;
+  margin-top: -2em;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #b9314f;
+}
+
+@keyframes pulsing-card {
+  25% {
+    transform: translateX(0.5rem);
+  }
+  50% {
+    transform: translate(0.5rem, 0.5rem);
+    /* transform: scale(1.05, 1.05); */
+    filter: drop-shadow(0 0 0.75rem #cdd1de);
+  }
+  100% {
+    transform: scale(1, 1);
+    transform: translateX(0) translateY(0rem);
+  }
+}
+@keyframes pulsing-link {
+  25% {
+    transform: translate(-2.5rem, 1.5rem);
+  }
+  50% {
+    transform: translate(0.5rem, 0.5rem);
+    transform: scale(1.05, 1.05);
+  }
+  100% {
+    transform: scale(1, 1);
+    transform: translateX(0) translateY(0rem);
+  }
+}

@@ -1,0 +1,35 @@
+.feature-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 650px;
+  height: 550px;
+  margin-left: 50px;
+}
+
+.feature-card__cover {
+  width: 500px;
+  max-width: 100%;
+  transform-origin: 0 0;
+  transition: transform 0.25s, visibility 0.25s ease-in-out;
+  animation: pulsing-card 5s ease-in infinite;
+}
+
+.feature-card__cover:hover {
+  animation: none;
+  filter: drop-shadow(0 0 1rem #fbaf00);
+  cursor: pointer;
+}
+
+.feature-card__title {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+  display: none;
+  animation: pulsing-link 5s ease-in infinite;
+}
+
+.feature-card__description {
+  font-size: 1.5em;
+  color: #cdd1de;
+}
