@@ -12,9 +12,16 @@ The primary goal of this project is to gain hands-on experience with Angular and
 
 ## 🧙‍️ Prerequisitess
 
-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+Before you start, make sure you have the Node.js and Angular CLI installed. If not, follow the steps below:
 
-- You need Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
+1. You'll need Node.js installed on your machine. You can download it from [**nodejs.org**](https://nodejs.org/).
+
+2. Open the terminal or command prompt.
+3. Run the following command to install the `Angular CLI `(latest version) globally:
+
+```bash
+npm install -g @angular/cli
+```
 
 ## 🌟 Usage
 
@@ -26,15 +33,35 @@ Follow these steps to get this project up and running on your local machine:
    git clone https://github.com/the-physicist/angular-luna-lovegood.git
    ```
 
-2. **Install Dependencies:** Open your terminal and navigate to the project directory. Run `npm install` to install the necessary dependencies.
+2. **Acess the Project:** Open your terminal and navigate to the project directory:
 
-3. **Run the Development Server:** In the terminal, execute `ng serve` to start the development server. Navigate to the website's address, typically `http://localhost:4200/`, after running the development server. Any changes you make to the source files will trigger automatic reloading.
+```bash
+   cd angular-luna-lovegood
+```
 
-4. **Explore the Website:** Open your web browser and go to `http://localhost:4200/` to explore Luna's magical world.
+3. **Install Dependencies:** Use the `install` command to install the necessary dependencies.
+
+```bash
+   npm install
+```
+
+4. **Run the Development Server:** Start the development server using the following command:
+
+```bash
+   ng serve
+```
+
+5. Navigate to the website's address, typically `http://localhost:4200/`, after running the development server. Any changes you make to the source files will trigger automatic reloading.
 
 ## 🌌 ️ Deployment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To _deploy_ this website, you'll need to build the project first using the following command:
+
+```bash
+   ng build
+```
+
+The build artifacts will be stored in the `dist/` directory.
 
 ## 🌈 Contributing
 
