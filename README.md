@@ -8,7 +8,7 @@ The primary goal of this project is to gain hands-on experience with Angular and
 
 ## 📱 Website Preview
 
-![Website Image](preview.png)
+[![Website Image](preview.png)](https://angular-luna-lovegood.vercel.app/)
 
 ## 🧙‍️ Prerequisitess
 
@@ -17,7 +17,7 @@ Before you start, make sure you have the Node.js and Angular CLI installed. If n
 1. You'll need Node.js installed on your machine. You can download it from [**nodejs.org**](https://nodejs.org/).
 
 2. Open the terminal or command prompt.
-3. Run the following command to install the `Angular CLI `(latest version) globally:
+3. Run the following command to install the `Angular CLI` (latest version) globally:
 
 ```bash
 npm install -g @angular/cli
@@ -39,7 +39,7 @@ Follow these steps to get this project up and running on your local machine:
    cd angular-luna-lovegood
 ```
 
-3. **Install Dependencies:** Use the `install` command to install the necessary dependencies.
+3. **Install Dependencies:** Use the `install` command to install the necessary dependencies:
 
 ```bash
    npm install
